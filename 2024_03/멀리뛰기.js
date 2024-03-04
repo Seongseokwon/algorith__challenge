@@ -20,5 +20,4 @@ const 멀리뛰기 = (n) => {
   return Number(diff[n] % 1234567n);
 }
 
-incorrect_멀리뛰기(3);
 module.exports = {멀리뛰기};
