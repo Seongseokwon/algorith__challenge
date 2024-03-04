@@ -1,0 +1,11 @@
+{
+  "name": "algorithm__challenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Seongseokwon/algorithm__challenge.git",
+  "author": "SeongSeokwon <pam9411@naver.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
