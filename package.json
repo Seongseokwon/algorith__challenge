@@ -5,6 +5,9 @@
   "repository": "https://github.com/Seongseokwon/algorithm__challenge.git",
   "author": "SeongSeokwon <pam9411@naver.com>",
   "license": "MIT",
+  "scripts":{
+    "test":"jest"
+  },
   "devDependencies": {
     "jest": "^29.7.0"
   }
