@@ -9,7 +9,7 @@
  */
 const solution = (s) => {
   const answer = [];
-  const stack = [];
+  const arr = [];
 
   for (let i = 0 ; i < s.length; i++) {
     if(stack.indexOf(s[i]) === -1) {
@@ -17,7 +17,7 @@ const solution = (s) => {
     } else {
       answer.push(i - stack.lastIndexOf(s[i]));
     }
-    stack.push(s[i]);
+    arr.push(s[i]);
   }
   return answer;
 }
